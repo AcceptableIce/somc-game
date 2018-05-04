@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOMC Simulator 2017</title>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  </head>
+  <body>
+    <div class="modal">
+      <div class="title">Welcome to SOMC Simulator 2017</div>
+      <div class="body">
+        <p>
+          The year is 20XX. Found guilty for embezzling SorosBucks from the r/neoliberal treasury, MrDannyOcean has stepped down from
+          his position as SOMC chairman. With nobody to lead, the SOMC has descended into chaos. Weeks of expansionary policy
+          combined with lax moderation has turned the once venerable discussion thread into a battleground of drama and nuanceless
+          takes. Now more than ever, the neoliberal project requires solid leadership, someone who can restore the tarnished
+          community into its former greatness.
+        </p>
+        <p>
+          4Xth President of the United States Ben S. Bernanke has nominated you as the new chairman of the SOMC; despite opposition,
+          you were narrowly confirmed 51 to 50, with Vice President Yellen casting the tie-breaking vote. Today is your first
+          day as the leader of the international neoliberal community. Your three-part mandate: foster perfect neutrality
+          between partisan lines, transparency, and the public opinion.
+        </p>
+        <p>
+          The eyes of the world rest upon you, Chairman. Will your SOMC foster a new golden age of neoliberalism, or will excessive
+          partisanship and incivility bury the center once and for all?
+        </p>
+      </div>
+      <button class="submit"><span>Begin</span></button>
+    </div>
+    <div class="content hidden">
+      <div class="top-bar">
+        <div class="stat" id="stat-partisanship">
+          <div class="label">Partisanship</div>
+          <div class="value">Neutral</div>
+        </div>
+        <div class="stat" id="stat-transparency">
+          <div class="label">Transparency</div>
+          <div class="value">0.00</div>
+        </div>
+        <div class="stat" id="stat-opinion">
+          <div class="label">Opinion</div>
+          <div class="value">0.00</div>
+        </div>
+      </div>
+      <div class="tabset">
+        <div class="tab-bar">
+          <div class="tab">1) Overview</div>
+        </div>
+        <div class="tab-content">
+          <div class="news-and-history">
+            <div class="news">
+              <div class="header">Current Events</div>
+              <div class="current-events"></div>
+            </div>
+            <div class="history">
+              <div class="header">History</div>
+              <div class="history-list"></div>
+            </div>
+          </div>
+          <div class="notifications">
+            <div class="header">Notifications</div>
+            <div class="current-action">
+              <div class="body">You have no pending messages.</div>
+              <div class="choices"></div>
+            </div>
+          </div>
+          <div class="overview">
+            <div class="header">Historical Analysis of Subreddit Health</div>
+            <div id="overview-graph" class="graph"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>

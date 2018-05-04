@@ -1,0 +1,314 @@
+{
+  "news": [
+    {
+      "headline": "French president Emmanuel Macron re-elected for fifteenth term",
+      "body": "Historic French election coincided with planet Jupiter's alignment with the Earth and the Sun.",
+      "modifiers": {
+        "partisanship": 1.0
+      }
+    },
+    {
+      "headline": "Bernie Sanders renames eleventh post office",
+      "body": "Sanders voters express distaste for \"post office identity politics\".",
+      "modifiers": {}
+    },
+    {
+      "headline": "\"B emoji\" prices stabilize as U.S. industry discovers new cache",
+      "body": "Price per gallon drops below four dollars for first time in five years.",
+      "modifiers": {
+        "opinion": 3.0
+      }
+    },
+    {
+      "headline": "Indonesian government announces independent anti-corruption commission",
+      "body": "Fourteenth independent anti-corruption of current administration since taking office last year.",
+      "modifiers": {
+        "transparency": 2.0
+      }
+    },
+    {
+      "headline": ""
+    }
+  ],
+  "events": [
+    {
+      "prerequisites": {
+        "partisanship": "<25"
+      },
+      "body": "The addition of Democratic presidential candidate Chelsea Clinton as a flair has upset some of the more right-leaning users, who feel that those brandishing the flair tend to act in more partisan manner than the average user.\n \"E X C E S S I V E  P A R T I S A N S H I P\", some cry, as others write dissertations outlining the benefits and costs of the SOMC removing the flair. The voting members of the SOMC are split, leaving you as the tiebreaking vote.",
+      "options": [
+        {
+          "label": "Remove the flair! It was a mistake adding it in the first place.",
+          "modifiers": {
+            "partisanship": -25.0,
+            "opinion": -15.0
+          },
+          "description": "SOMC elects to remove Clinton flair, citing excessive partisanship directive."
+        },
+        {
+          "label": "Keep it. People will be P A R T I S A N regardless of their flairs.",
+          "modifiers": {
+            "partisanship": 25.0,
+            "opinion": 10.0
+          },
+          "description": "SOMC keeps Clinton flair; Social Democrats continue to call themselves underrepresented in the discussion thread."
+        },
+        {
+          "label": "Keep it, but call the socdems annoying in the stickied post.",
+          "modifiers": {
+            "partisanship": 10.0,
+            "opinion": -30.0,
+            "transparency": -10.0
+          },
+          "description": "SOMC keeps Clinton flair in crass ruling; users wonder if the SOMC is out of touch."
+        }
+      ]
+    },
+    {
+      "prerequisites": {
+        "partisanship": ">-50"
+      },
+      "body": "The discussion thread is abuzz over comments made by a former moderator from New Zealand, whose contributions are considered hostile at best by the left-leaning users. The other members of the SOMC like his posts, but whether that's because they're truly nuanced or whether they simply provide some political balance is hard to tell.\n Prominent socdem user u/private88 argues that anyone else would find themself banned a week ago if they'd argued in such bad faith; some right-leaning users argue that he's the only voice of reason in a sea of party-line Democrats. The SOMC doesn't want to hurt his feelings, since he's still in the mod slack; it falls to you to make the decision.",
+      "options": [
+        {
+          "label": "Ban him. Rules are rules.",
+          "modifiers": {
+            "partisanship": 25.0,
+            "transparency": 15.0
+          },
+          "description": "SOMC turns on former moderator u/shadowdeuceNZ, issue two week ban."
+        },
+        {
+          "label": "The neocons are right, he's the only person keeping this place sane. He needs to stay.",
+          "modifiers": {
+            "partisanship": -25.0,
+            "transparency": -15.0
+          },
+          "description": "SOMC under fire for favoritism; socdems claim u/shadowdeuceNZ is above the sidebar rules."
+        },
+        {
+          "label": "Issue a public warning, calling out both sides for immaturity.",
+          "modifiers": {
+            "transparency": -10.0,
+            "opinion": -10.0
+          },
+          "description": "SOMC slams discussion thread schismers, says there is \"partisanship on both sides\"."
+        }
+      ]
+    },
+    {
+      "body": "A journalist is seeking for self-identified neoliberals on Twitter to interview for a piece she's writing. So far, the responses have mostly come from self-identified \"classical liberals\" who seem to have misunderstood the request. They're giving neoliberalism a worse name than it already has, and members of the SOMC are worried this might affect their shadowy projects.",
+      "options": [
+        {
+          "label": "Post a public call-to-arms on the discussion thread, rallying everyone to give the journalist better interviews.",
+          "modifiers": {
+            "transparency": 25.0,
+            "opinion": -10.0
+          },
+          "description": "Journalist writes on aggression from self-identified neoliberals."
+        },
+        {
+          "label": "Message a few trusted users in private, hoping their interviews put off a better image.",
+          "modifiers": {
+            "transparency": 10.0,
+            "opinion": 10.0
+          },
+          "description": "Journalist writes hesitantly positive article on neoliberalism; still compares ideology to libertarianism."
+        },
+        {
+          "label": "Tell the discussion thread not to reply; the SOMC will handle this in private.",
+          "modifiers": {
+            "transparency": -15.0,
+            "opinion": 10.0
+          },
+          "description": "Journalist writes glowing article on neoliberalism amidst complaints of growing SOMC elitism."
+        }
+      ]
+    },
+    {
+      "body": "The discussion thread has erupted in turmoil today as the users schism over the terms \"grilled cheese\" and \"melt\". Some claim the terms are interchangable, while others call the undiscerning majority uncultured idiots who don't understand anything about the culinary arts. The discussion thread is nearing twenty thousand posts of food fighting, and while it is an impressive record, it's still a bad look for the sub.\nThe rest of the SOMC is nowhere to be seen; they're probably busy \"having jobs\" and \"friends\" or whatever. Thus, it falls to you to end the great sandwich-involving-melted-cheese schism of 20XX.",
+      "options": [
+        {
+          "label": "\"Grilled cheese\" is the blatantly correct term; anything else is just pedantic.",
+          "modifiers": {
+            "transparency": 10.0,
+            "partisanship": 25.0,
+            "opinion": 10.0
+          },
+          "description": "SOMC takes stand on grilled cheese issue, sides with descriptivists."
+        },
+        {
+          "label": "\"Melt\" is obviously right; pedantry is what makes this sub so great, after all.",
+          "modifiers": {
+            "transparency": 10.0,
+            "partisanship": -25.0,
+            "opinion": -10.0
+          },
+          "description": "SOMC takes stand on melt issue, sides with prescriptivists."
+        },
+        {
+          "label": "Both terms are good. That's what centrism is all about!",
+          "modifiers": {
+            "opinion": -25.0
+          },
+          "description": "SOMC takes no side on melt issue, schism rages on."
+        }
+      ]
+    },
+    {
+      "body": "The rest of reddit has, for once, decided to champion the cause of traditional liberal values. Despite reddit finally coming around, the subreddit has decided that this is a sign that liberalism is clearly flawed; after all, reddit's wrong about just about everything else, so they must be wrong about this as well. The discussion thread is filled with mourning over the clearly dead ideology, complaints about contrarianism, and complaints about anti-contrarianism. The SOMC looks for your guidance to solve what seems to be the sub's lowest moment.",
+      "options": [
+        {
+          "label": "I mean, reddit is pretty dumb. If they're agreeing with us, we're certainly wrong.",
+          "modifiers": {
+            "partisanship": -30.0,
+            "opinion": -20.0
+          }
+        },
+        {
+          "label": "The DT is a parody of itself sometimes. Ban the illiberal users.",
+          "modifiers": {
+            "transparency": -10.0,
+            "opinion": 25.0
+          }
+        },
+        {
+          "label": "Let the marketplace of ideas sort this one out.",
+          "modifiers": {
+            "transparency": 15.0,
+            "opinion": -10.0,
+            "partisanship": -15.0
+          }
+        }
+      ]
+    },
+    {
+      "body": "Waking up this morning, you check your phone to see hundreds of missed calls and emails, your voicemail flooded with desperate attempts to reach you. It seems over the night, someone has leaked internal documents from the SOMC boardroom detailing secret funding from Democratic donator and apparent immortal George Soros. While the discussion thread is unphased by this obvious revelation, the rest of America is taken aback by this clear conflict of interest. The world awaits your response.",
+      "options": [
+        {
+          "label": "Apologize and commit the SOMC to greater ethical auditing.",
+          "modifiers": {
+            "transparency": 25.0,
+            "opinion": 5.0
+          }
+        },
+        {
+          "label": "Blame the issue on the leaker, and commit the SOMC to determining their identity at any cost.",
+          "modifiers": {
+            "transparency": -10.0,
+            "opinion": 5.0
+          }
+        },
+        {
+          "label": "Call Soros and laugh over how ridiculous this all is.",
+          "modifiers": {
+            "transparency": -25.0,
+            "opinion": -10.0,
+            "partisanship": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "body": "The sub has hit the front page again; frequent poster u/MiddleFingeredManiac's feminist bait-and-switch gif has risen to the top, but its mention of the gender wage gap has brought in a lot of angry visitors. You've already made a post in the discussion thread encourging the regulars to mess with the visiting misogynists; the real question is what you set as the default sort?",
+      "options": [
+        {
+          "label": "New",
+          "modifiers": {
+            "opinion": 25.0
+          }
+        },
+        {
+          "label": "Best",
+          "modifiers": {
+            "opinion": 5.0
+          }
+        },
+        {
+          "label": "Contest",
+          "modifiers": {
+            "opinion": -25.0
+          }
+        }
+      ]
+    },
+    {
+      "body": "While the SOMC's 2017 investments into the cryptocurrency Ripple didn't pay off, their investments into the Vanguard Total Cryptocurrency Index (NSYE: VTCI) somehow did. With the initial investment of thirty dollars ballooning into an impressive nest egg of forty-two dollars, the question of how to spend these new-found riches sits in the mind of every board member.",
+      "options": [
+        {
+          "label": "Contribute the money to the next donation drive and use it to buy a dope flair for JobAutomator.",
+          "modifiers": {
+            "opinion": 10.0,
+            "transparency": 10.0
+          }
+        },
+        {
+          "label": "Spend it all on stickers, and stick 'em on skate ramps and ski lifts and the like.",
+          "modifiers": {
+            "opinion": -5.0
+          }
+        },
+        {
+          "label": "Stash it all away in an offshore tax-haven account. If Rose Twitter is gonna blame the neoliberals whenever one of those places leaks anyways, we might as well capitalize on it.",
+          "modifiers": {
+            "transparency": -15.0,
+            "partisanship": 15.0
+          }
+        }
+      ]
+    }
+  ],
+  "endConditions": [
+    {
+      "prerequisites": {
+        "partisanship": 100
+      },
+      "title": "Not Real Socialism",
+      "body": "Overwhelmed by leftist partisanship, the subreddit has descended into a progressive hellscape reminscent of LSC. Devoid of all nuance, the discussion thread now schisms over whether Stalin was actually a neoliberal.\nPresident Bernanke has cancelled the neoliberal project. The SOMC will no longer be remembered as a guiding force that rescued a tarnished ideology; instead, it has inadvertedly ushered in a centrally-planned American economy."
+    },
+    {
+      "prerequisites": {
+        "partisanship": -100
+      },
+      "title": "Boneless Libertarianism",
+      "body": "For once, the socdems were right; they actually were marginalized in the discussion threads. What was once a bastion of quality discussion and cordial disagreement has turned into the Somalian delegation at the Model UN.\nPresident Bernanke has privitized the neoliberal project, and the investors have voted you off the SOMC; you're an unelected technocrat, after all. It's time to drain the swamp."
+    },
+    {
+      "prerequisites": {
+        "transparency": 100
+      },
+      "title": "Freedom Isn't Free",
+      "body": "A shining beacon of transparency standing alone in the murky expanse of the Federal government, the SOMC has long stood as the example for all other government organizations to follow. But when one strives for greatness, their work is never over. Ferverent in its commitment to honesty and openness, the SOMC has voted to broadcast the lives of each board member.\nEvery moment of your life is now public, and though a few public deceny laws may need some adjusting, nothing can truly stand in the way of perfect bureaucracy. Hope you don't make any mistakes... ever."
+    },
+    {
+      "prerequisites": {
+        "transparency": 0
+      },
+      "title": "The New World Order",
+      "body": "Deep underground, the SOMC takes their seat around the circular table. In the middle floats a hologram of the Earth, slowly rotating in place as blips of light flash in various locations. When the light fades, it means the agents of the New World have succeeded; another partisan has been brought to rest.\nYou cannot see the faces of your fellow elites, each of their visages obfuscated by the shadowy haze that fills the cavern. This is by design, of course. The human mind is flawed, so easily seduced by appearance alone. One cannot strive for true neutrality if one harbors inherit bias.\nYou begin to think to yourself what a excellent job you've done, but you stop yourself. The SOMC does not do a good or bad job; it simply <i>does</i>. Anything else betrays the ideal of true neutrality."
+    },
+    {
+      "prerequisites": {
+        "opinion": 0
+      },
+      "title": "The Organizational Trashcan",
+      "body": "From behind the curtain, you peer out the window of your D.C. apartment, watching in horror as the police begin to find themselves overwhelmed by the growing unrest. The mob around your residence expands every minute, a sea of riotous Americans demanding your head at any cost. You knew this job could be unpopular, but as the first public figure to achieve zero percent approval, you may have underestimated.\nAny hope that President Bernanke might help you from this predicament has faded weeks ago. The President is too preoccupied cleaning up your mess, after all, and you know his advisors have suggested throwing you to the wolves as a way of calming the disrest, if only for a moment.\nPerhaps you should care more about the country you've irrevocably damaged than your own preservation. The idealistic you that took this job might have, but yhe you that exists today only hopes to survive until tomorrow."
+    },
+    {
+      "prerequisites": {
+        "opinion": 100
+      },
+      "title": "Put No Thought Before Neutrality",
+      "body": "Taking a deep breath, you push through the towering doors. Before you, people line the streets of the Capital, a gathering that continues beyond the horizon, and the cheer that erupts from your prescence rattles the Earth itself. These are your followers, those who have devoted themselves to your Word, those who have stumbled from the darkness of wretched partisanship into the caring arms of you and your Neutrality.\nYou allow the people to revel in your shadow for little longer before raising a hand. Immediately the crowd falls silent. Even nature pauses in anticipation of your next action as the universe awaits your latest divine message.\n\"My people, my followers,\" you start to say with your trademark elitist poise, the demeanor your followers love so truly. You pause again, watching as your worshippers dwell on the very timbre of your voice, before issuing your latest decree..."
+    },
+    {
+      "prerequisites": {
+        "partisanship": 0,
+        "transparency": 50,
+        "opinion": 50
+      },
+      "title": "True Centrism",
+      "body": "Sitting in your desk, you sip a cup of lukewarm tea, carefully blended from a mix of various leaves as to not allow any flavor to overpower the others. You begin to enjoy the relaxing pause just a moment too soon as an awe-struck SOMC analyst bursts into your office, folders shoved beneath her arms and papers spilling behind her.\n\"Chairman!\" she shouts between panting breaths, \"You won't beleve it, but it's finally happened!\"\n\"What?\" you begin to ask, but she interrupts you in her frenzy.\n\"True Neutrality!\" she announces, her eyes beaming with incredulous joy. \"We've done it, we've actually done it. Everything is at peace, no force overrides another.\"\nBefore you can reply, you feel a lifting feeling within your stomach as you start to float upwards. A pillar of light descends from the heavens, piercing through the concrete and steel of the SOMC building, and you effortly rise upward in its grace, passing through the ceiling as if nothing was there. You see the analyst rising beside you, bathed in her own light, and glancing around you see millions of others, each floating towards the skies.\nYou close your eyes and allow the celestial light to bathe you in its warmth as it carries you and humanity beyond the stars and into ascendance."
+    }
+  ]
+}
