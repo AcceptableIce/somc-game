@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function checkEndConditions() {
     const metConditions = content.endConditions.filter(x => hasPrerequisites(x));
     
-    if(metConditions.length) {
+    if(metConditions.length && player.decisionHistory.length >= 3) {
       const endCondition = metConditions[0];
 
       document.querySelector(".modal .title").innerHTML = endCondition.title;
