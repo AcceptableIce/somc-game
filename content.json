@@ -198,14 +198,16 @@
           "modifiers": {
             "partisanship": -30.0,
             "opinion": -20.0
-          }
+          },
+          "description": "SOMC turns back on liberalism, cites primal need for contrarianism."
         },
         {
           "label": "The DT is a parody of itself sometimes. Ban the illiberal users.",
           "modifiers": {
             "transparency": -10.0,
             "opinion": 25.0
-          }
+          },
+          "description": "SOMC cracks down on illiberal apologia."
         },
         {
           "label": "Let the marketplace of ideas sort this one out.",
@@ -213,7 +215,8 @@
             "transparency": 15.0,
             "opinion": -10.0,
             "partisanship": -15.0
-          }
+          },
+          "description": "SOMC adopts laissez-faire approach to illiberalism debate, sparking controversy."
         }
       ]
     },
@@ -221,18 +224,20 @@
       "body": "Waking up this morning, you check your phone to see hundreds of missed calls and emails, your voicemail flooded with desperate attempts to reach you. It seems over the night, someone has leaked internal documents from the SOMC boardroom detailing secret funding from Democratic donator and apparent immortal George Soros. While the discussion thread is unphased by this obvious revelation, the rest of America is taken aback by this clear conflict of interest. The world awaits your response.",
       "options": [
         {
-          "label": "Apologize and commit the SOMC to greater ethical auditing.",
+          "label": "Apologize and commit the SOMC to ethical auditing.",
           "modifiers": {
             "transparency": 25.0,
             "opinion": 5.0
-          }
+          },
+          "description": "SOMC submits to greater regulatory oversight, despite desire for independence."
         },
         {
           "label": "Blame the issue on the leaker, and commit the SOMC to determining their identity at any cost.",
           "modifiers": {
             "transparency": -10.0,
             "opinion": 5.0
-          }
+          },
+          "description": "SOMC downplays leak, claims determining the identity of the leaker should be focus of investigation."
         },
         {
           "label": "Call Soros and laugh over how ridiculous this all is.",
@@ -240,7 +245,8 @@
             "transparency": -25.0,
             "opinion": -10.0,
             "partisanship": 10.0
-          }
+          },
+          "description": "SOMC receives additional funding despite recent controversy."
         }
       ]
     },
@@ -251,19 +257,22 @@
           "label": "New",
           "modifiers": {
             "opinion": 25.0
-          }
+          },
+          "description": "SOMC pledges to increase salt mining."
         },
         {
           "label": "Best",
           "modifiers": {
             "opinion": 5.0
-          }
+          },
+          "description": "SOMC pledges to increase consistency."
         },
         {
           "label": "Contest",
           "modifiers": {
             "opinion": -25.0
-          }
+          },
+          "description": "SOMC pledges to increase salt mining of both internal and external users."
         }
       ]
     },
@@ -275,20 +284,23 @@
           "modifiers": {
             "opinion": 10.0,
             "transparency": 10.0
-          }
+          },
+          "description": "SOMC reinvests capital gains in move pundits call \"obvious\""
         },
         {
           "label": "Spend it all on stickers, and stick 'em on skate ramps and ski lifts and the like.",
           "modifiers": {
             "opinion": -5.0
-          }
+          },
+          "description": "SOMC invests capital gains into outreach program."
         },
         {
           "label": "Stash it all away in an offshore tax-haven account. If Rose Twitter is gonna blame the neoliberals whenever one of those places leaks anyways, we might as well capitalize on it.",
           "modifiers": {
             "transparency": -15.0,
             "partisanship": 15.0
-          }
+          },
+          "description": "SOMC anonunces no income for fiscal year."
         }
       ]
     }
