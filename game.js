@@ -237,6 +237,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         actionContainer.appendChild(optionElement);
       });
+    } else {
+      showEndCondition({
+        title: "Standard Operating Procedure",
+        body: "Your term as SOMC chairman has ended, and while technocracy is supposed to be boring, yours was so boring that President Bernanke forgot " +
+          "to renominate you. While the uneventfulness was certainly a good thing for the country, it's definitely not so great for your ego."
+      });
     }
 
     player.lastEventTick = player.tick;
@@ -246,24 +252,26 @@ document.addEventListener("DOMContentLoaded", () => {
     const metConditions = content.endConditions.filter(x => hasPrerequisites(x));
     
     if(metConditions.length && player.decisionHistory.length >= 3) {
-      const endCondition = metConditions[0];
-
-      document.querySelector(".modal .title").innerHTML = endCondition.title;
-      document.querySelector(".modal .body").innerHTML = endCondition.body.split("\n")
-        .map(part => `<p>${part}</p>`).join("");
-      document.querySelector(".modal .submit span").innerHTML = "Play Again";
-
-      const content = document.querySelector(".content");
-      content.classList.remove("turn-on");
-      content.classList.add("turn-off");
-      document.querySelector(".modal").classList.remove("hidden");
-
-      player.activeEvent = true;
+      showEndCondition(metConditions[0]);
       
       return true;
     }
 
     return false;
+  }
+
+  function showEndCondition(endCondition) {
+    document.querySelector(".modal .title").innerHTML = endCondition.title;
+    document.querySelector(".modal .body").innerHTML = endCondition.body.split("\n")
+      .map(part => `<p>${part}</p>`).join("");
+    document.querySelector(".modal .submit span").innerHTML = "Play Again";
+
+    const content = document.querySelector(".content");
+    content.classList.remove("turn-on");
+    content.classList.add("turn-off");
+    document.querySelector(".modal").classList.remove("hidden");
+
+    player.activeEvent = true;
   }
 
   function updateData() {
