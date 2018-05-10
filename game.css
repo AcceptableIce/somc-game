@@ -219,6 +219,16 @@ body {
   color: #000;
 }
 
+.current-action .choices .action-choice:focus,
+.modal .submit:focus {
+  outline: none;
+}
+
+.current-action .choices .action-choice:focus span,
+.modal .submit:focus span{
+  outline: 2px solid #6767c3;
+}
+
 .current-action .choices .action-choice:hover span,
 .modal .submit:hover span {
   background-color: #fff;
