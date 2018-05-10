@@ -331,5 +331,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector(".modal").classList.add("hidden");
     content.classList.remove("hidden");
     content.classList.add("turn-on");
+
+    document.querySelector(".current-events").innerHTML = "";
+    document.querySelector(".history-list").innerHTML = "";
   }
 });
