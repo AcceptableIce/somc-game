@@ -211,6 +211,7 @@ body {
   margin: 10px 0;
   cursor: pointer;
   min-height: 20px;
+  line-height: 1.4em;
 }
 
 .current-action .choices .action-choice span,
