@@ -4,30 +4,65 @@
       "headline": "French president Emmanuel Macron re-elected for fifteenth term",
       "body": "Historic French election coincided with planet Jupiter's alignment with the Earth and the Sun.",
       "modifiers": {
-        "partisanship": 1.0
+        "partisanship": 5.0
       }
     },
     {
       "headline": "Bernie Sanders renames eleventh post office",
-      "body": "Sanders voters express distaste for \"post office identity politics\".",
+      "body": "Puzzling move as Sanders voters continue to express distaste for \"post office identity politics\".",
       "modifiers": {}
     },
     {
       "headline": "\"B emoji\" prices stabilize as U.S. industry discovers new cache",
       "body": "Price per gallon drops below four dollars for first time in five years.",
       "modifiers": {
-        "opinion": 3.0
+        "opinion": 5.0
       }
     },
     {
       "headline": "Indonesian government announces independent anti-corruption commission",
       "body": "Fourteenth independent anti-corruption of current administration since taking office last year.",
       "modifiers": {
-        "transparency": 2.0
+        "transparency": 5.0
       }
     },
     {
-      "headline": ""
+      "headline": "U.S. Senator Mitt Romney (R-UT) announces new occupational licensing bill",
+      "body": "\"The neolibs will defend me anyways,\" he said, prompting questions of what he meant by that.",
+      "modifiers": {
+        "partisanship": -5.0
+      }
+    },
+    {
+      "headline": "U.K's Liberal Democrats announces partnership with U.S-based Coca-Cola Company",
+      "body": "\"Just like the Lib Dems, Coca-Cola's SURGE is fighting to keep Britain open, tolerant, and united,\" said party leader Sir Vincent Cable.",
+      "modifiers": {
+        "opinion": 5.0
+      }
+    },
+    {
+      "headline": "Chinese Communist Party leader presents \"Zhairen Thought on Neoliberalism with Chinese Characteristics\"",
+      "body": "Experts wonder if rebranding of former authoritarian party to follow.",
+      "modifiers": {
+        "opinion": 5.0
+      }
+    },
+    {
+      "headline": "Study finds declines in happiness index correlates to Twitter usage",
+      "body": "\"The answer was in front of us all this time,\" said the lead researcher. \"It's incredible nobody pointed this out before.\"",
+      "modifiers": {
+        "opinion": 5.0
+      }
+    },
+    {
+      "headline": "Bitcoin ends day 40 percent down despite opening 80 percent up.",
+      "body": "Fluxations continue to harm U.S. Libertarian Party's plans to replace Federal Reserve with a rather large blockchain.",
+      "modifiers": {}
+    },
+    {
+      "headline": "Study finds international meme industry fastest growing in developed nations.",
+      "body": "Half of all growth explained by lead exporter Belgium.",
+      "modifiers": {}
     }
   ],
   "events": [
@@ -68,7 +103,7 @@
       "prerequisites": {
         "partisanship": ">-50"
       },
-      "body": "The discussion thread is abuzz over comments made by a former moderator from New Zealand, whose contributions are considered hostile at best by the left-leaning users. The other members of the SOMC like his posts, but whether that's because they're truly nuanced or whether they simply provide some political balance is hard to tell.\n Prominent socdem user u/private88 argues that anyone else would find themself banned a week ago if they'd argued in such bad faith; some right-leaning users argue that he's the only voice of reason in a sea of party-line Democrats. The SOMC doesn't want to hurt his feelings, since he's still in the mod slack; it falls to you to make the decision.",
+      "body": "The discussion thread is abuzz over comments made by a former moderator from New Zealand, whose contributions are considered hostile at best by the left-leaning users. Some other members of the SOMC like his posts, but whether that's because they're truly nuanced or whether they simply provide some political balance is hard to tell.\n Prominent socdem user u/private88 argues that anyone else would find themself banned a week ago if they'd argued in such bad faith; some right-leaning users argue that he's the only voice of reason in a sea of party-line Democrats. The SOMC doesn't want to hurt his feelings, since he's still in the mod slack; it falls to you to make the decision.",
       "options": [
         {
           "label": "Ban him. Rules are rules.",
